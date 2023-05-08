@@ -75,7 +75,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="CHAT GROUP 💞", url=f"https://t.me/beat_frienfs_chatting_grup"),
+            InlineKeyboardButton(text="CHAT GROUP 💞", url=f"https://t.me/best_frienfs_chatting_grup"),
         ],
         [
             InlineKeyboardButton(
@@ -105,7 +105,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝟗𝐱𝐦 𝐌𝐮𝐬𝐢𝐜 💌", url=f"https://t.me/Alexa_Help"),
+            InlineKeyboardButton(text="𝟗𝐱𝐦 𝐌𝐮𝐬𝐢𝐜 💌", url=f"https://t.me/mistyamraj_ki_kahani"),
         ],
     ]
     return buttons
